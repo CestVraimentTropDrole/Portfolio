@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "BUT Métiers du Multimédia et de l'Internet",
+    "place": "IUT de Chambéry",
+    "description": "Axé sur la professionalisation et les projets, MMI est un parcours pluridisciplinaire qui forme au développement Web, graphisme, vidéo et gestion de projet.",
+    "date": "2023 - 2026",
+    "link": "https://mmi.univ-smb.fr/",
+    "type": "Études"
+  },
+  {
+    "id": 2,
+    "name": "Full Stack Developer",
+    "place": "LACVI",
+    "description": "Site Web de réservation en ligne créé de zéro, avec inscription, validation, recherche et gestion admin, avec Tailwind et Symfony. Stage de 2 mois en solo.",
+    "date": "Avril - Juin 2025",
+    "link": "",
+    "type": "Stage"
+  }
+]
