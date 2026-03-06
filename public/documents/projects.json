@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "Kaka Lanta",
+    "date": "Novembre 2025 - Janvier 2026",
+    "shortDesc": "Kaka Lanta est jeu Unity créé à 3, lié à un écran et des manettes Arduino imprimées en 3D.",
+    "longDesc": "Kaka Lanta est jeu Unity créé à 3 depuis zéro, lié à un écran de télévision via un Raspberry et des manettes Arduino imprimées en 3D.",
+    "technos": ["Unity", "C#", "Arduino", "Tinkercad", "Bambulab"],
+    "tags": ["jeuvideo", "hardware"],
+    "images": [
+      "kaka_lanta.jpg",
+      "wallpaper.jpg"
+    ],
+    "link": "https://github.com/CestVraimentTropDrole/Kaka-Lanta",
+    "competencies": {
+      "ce": [
+        "CE4.03 | en produisant du code fonctionnel, sobre et réutilisable",
+        "CE4.04 | en utilisant les outils favorisant un développement itératif et collaboratif", 
+        "CE4.05 | en veillant à la sécurité des systèmes et des données"
+      ],
+      "ac": [
+        "AC34.03 | Développer des dispositifs interactifs sophistiqués",
+        "AC34.04 | Concevoir et développer des composants logiciels, plugins ou extensions",
+        "AC34.05 | Maîtriser l'hébergement et le déploiement d'applications"
+      ]
+    },
+    "mainpage": true
+  },
+  {
+    "id": 2,
+    "name": "Alter'Boost",
+    "date": "Février - Avril 2025",
+    "shortDesc": "Alter'Boost est un site Web de recherche d'alternance, créé en équipe sur Symfony et focalisé UX.",
+    "longDesc": "Alter'Boost est un site Web de recherche d'alternance, créé en équipe sur Symfony et focalisé UX.",
+    "technos": ["Symfony", "Figma", "Tailwind", "Laragon"],
+    "tags": ["web", "ux"],
+    "images": [
+      "sae401.jpg",
+      "wallpaper.jpg"
+    ],
+    "link": "https://github.com/Evann111/SAE401",
+    "competencies": {
+      "ce": [
+        "CE4.03 | en produisant du code fonctionnel, sobre et réutilisable"
+      ],
+      "ac": [
+        "AC34.03 | Développer des dispositifs interactifs sophistiqués"
+      ]
+    },
+    "mainpage": true
+  },
+  {
+    "id": 3,
+    "name": "Imprimantes 3D",
+    "date": "Décembre 2024",
+    "shortDesc": "Motion design sur les imprimantes 3D d'1 minute réalisé en 1 semaine à 2 pour le Rallye Motion 2024.",
+    "longDesc": "Motion design sur les imprimantes 3D d'1 minute réalisé en 1 semaine à 2 pour le Rallye Motion 2024.",
+    "technos": ["Illustrator", "AfterEffects"],
+    "tags": ["motion", "av"],
+    "images": [
+      "motion.jpg",
+      "wallpaper.jpg"
+    ],
+    "link": "https://www.youtube.com/watch?v=nl7JZgJo9QQ",
+    "competencies": {
+      "ce": [
+        "CE4.03 | en produisant du code fonctionnel, sobre et réutilisable"
+      ],
+      "ac": [
+        "AC34.03 | Développer des dispositifs interactifs sophistiqués"
+      ]
+    },
+    "mainpage": true
+  },
+  {
+    "id": 4,
+    "name": "Placeholder",
+    "date": "Date",
+    "shortDesc": "Description courte.",
+    "longDesc": "Description longue.",
+    "technos": ["Placeholder"],
+    "tags": ["test"],
+    "images": [
+      "wallpaper.jpg"
+    ],
+    "link": "",
+    "competencies": {
+      "ce": [
+        "CE4.03 | en produisant du code fonctionnel, sobre et réutilisable"
+      ],
+      "ac": [
+        "AC34.03 | Développer des dispositifs interactifs sophistiqués"
+      ]
+    },
+    "mainpage": false
+  }
+]
