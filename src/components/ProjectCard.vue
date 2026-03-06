@@ -78,7 +78,7 @@
         type: Object,
         required: true
       },
-      categories: { type: Array }
+      categories: { type: Object }
     }
   }
 </script>

@@ -9,7 +9,6 @@
     }
   })
 
-
   const projects = ref(null)
 
   const categories = {
@@ -33,7 +32,7 @@
 </script>
 
 <template>
-  <section id="projects">
+  <section id="projects" class="w-full">
 
     <div v-if="projects" class="w-full grid grid-cols-3 px-16 gap-8">
       <ProjectCard

@@ -1,8 +1,8 @@
 <template>
   <footer class="w-full flex flex-row justify-between px-16 py-8 bg-black dark:bg-gray transition duration-150">
     <div class="w-fit flex lg:gap-3 text-white">
-      <p class="font-medium">4 Mars 2026</p>
-      <p>ver 2.3.3</p>
+      <p class="font-medium">6 Mars 2026</p>
+      <p>ver 2.3.4</p>
     </div>
     <div class="flex gap-3">
       <a href="https://github.com/CestVraimentTropDrole" target="_blank">

@@ -1,6 +1,6 @@
 <script setup>
   import Button from '@/components/Button.vue';
-  import SkillCard from '@/components/SkillCard.vue';
+  import SkillRow from '@/components/SkillRow.vue';
   import ProjectRow from '@/components/ProjectRow.vue';
 </script>
 
@@ -17,7 +17,7 @@
     </div>
   </section>
 
-  <section id="showcase" class="w-full flex flex-col items-center gap-12 px-6 lg:px-16 py-12">
+  <section id="showcase" class="w-full flex flex-col items-center gap-12 py-12">
     <div class="w-full lg:w-1/2 flex flex-col items-center gap-3 text-center">
       <h2>Mes réalisations</h2>
       <p>Voici un aperçu de mes projets les plus récents, qui montrent ce que je suis capable de réaliser, et ce que j'ai appris.</p>
@@ -31,15 +31,7 @@
       <h2>Mes outils</h2>
       <p>D'une nature curieuse, j'essaye toujours d'apprendre plus de langages et d'outils, pour rester à la page et ne pas être dépassé.</p>
     </div>
-    <!--Skills Row-->
-    <div class="w-full grid grid-cols-2 lg:grid-cols-6 gap-6">
-      <SkillCard name="Figma" type="Logiciel" image="figma.svg" />
-      <SkillCard name="VueJS" type="Frontend" image="vuejs.svg" />
-      <SkillCard name="Tailwind" type="Frontend" image="tailwind.svg" />
-      <SkillCard name="Symfony" type="Backend" image="symfony.svg" />
-      <SkillCard name="Java" type="Langage" image="java.svg" />
-      <SkillCard name="Python" type="Langage" image="python.svg" />
-    </div>
+    <SkillRow />
   </section>
 
   <section id="about" class="w-full flex flex-col items-center gap-8 px-6 lg:px-16 py-12">
