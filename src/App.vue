@@ -5,7 +5,7 @@
 
 <template>
   <Header />
-  <main class="w-full">
+  <main class="w-full px-6 lg:px-0">
     <router-view></router-view>
   </main>
   <Footer />

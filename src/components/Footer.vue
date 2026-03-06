@@ -1,6 +1,6 @@
 <template>
-  <footer class="w-full flex flex-row justify-between px-16 py-8 bg-black dark:bg-gray transition duration-150">
-    <div class="w-fit flex lg:gap-3 text-white">
+  <footer class="w-full flex flex-row justify-between items-center px-4 py-8 lg:px-16 lg:py-8 bg-black dark:bg-gray transition duration-150">
+    <div class="w-fit flex gap-3 text-white">
       <p class="font-medium">6 Mars 2026</p>
       <p>ver 2.3.4</p>
     </div>

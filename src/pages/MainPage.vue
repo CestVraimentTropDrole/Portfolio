@@ -6,7 +6,7 @@
 
 <template>
   <section id="hero" class="w-full h-[90dvh] flex flex-col items-center justify-center gap-8">
-    <div class="w-full lg:w-1/2 flex flex-col gap-4 px-6 lg:p-0 text-center">
+    <div class="w-full lg:w-1/2 flex flex-col gap-4 text-center">
       <h1>Portfolio</h1>
       <h2 class="text-orange">Dev Full-Stack et Créatif</h2>
       <p class="font-medium">Actuellement en 3e année de BUT MMI à Chambéry, passionné en développement web, webdesign et UX design, je recherche un stage pour le courant de cette année.</p>
@@ -26,7 +26,7 @@
     <Button variant="secondary" link="projects" caption="Voir plus de projets" />
   </section>
 
-  <section id="skills" class="w-full flex flex-col items-center gap-12 px-6 lg:px-16 py-12 drop-shadow-box text-white dark:text-black transition duration-150">
+  <section id="skills" class="w-full flex flex-col items-center gap-12 lg:px-16 py-12 drop-shadow-box text-white dark:text-black transition duration-150">
     <div class="w-full lg:w-1/2 flex flex-col items-center gap-3 text-center">
       <h2>Mes outils</h2>
       <p>D'une nature curieuse, j'essaye toujours d'apprendre plus de langages et d'outils, pour rester à la page et ne pas être dépassé.</p>
@@ -34,7 +34,7 @@
     <SkillRow />
   </section>
 
-  <section id="about" class="w-full flex flex-col items-center gap-8 px-6 lg:px-16 py-12">
+  <section id="about" class="w-full flex flex-col items-center gap-8 lg:px-16 py-12">
     <h2 class="w-fit lg:w-full">À propos</h2>
     <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
       <div id="infos" class="w-full rounded-xl bg-white/10 dark:bg-gray/10 px-6 py-4 drop-shadow-box transition duration-150">
@@ -51,7 +51,7 @@
     <a href="/documents/cv_perou_timeo.pdf" target="_blank" class="w-fit px-6 py-3 rounded-lg shadow-box overflow-hidden duration-150 border-white dark:border-[#aaaaaa] border hover:bg-[#424242] dark:hover:bg-[#aaaaaa]">Mon CV</a>
   </section>
 
-  <section id="final" class="w-full flex flex-col items-center gap-8 px-6 py-12">
+  <section id="final" class="w-full flex flex-col items-center gap-8 lg:px-6 py-12">
     <h2 class="text-orange">Intéressé ?</h2>
     <p class="text-white text-center lg:w-1/2 dark:text-black transition duration-150">Dans ma poursuite en 3e année d'études, je recherche des stages pour l'année 2026. Si mon profil vous intéresse, je serai ravi de discuter avec vous de notre potentielle collaboration.</p>
     <Button variant="primary" link="/contact" caption="Me contacter" />

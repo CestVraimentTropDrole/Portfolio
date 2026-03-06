@@ -1,5 +1,5 @@
 <template>
-  <a :href="link" class="w-1/2 flex flex-col gap-4 px-6 py-4 rounded-lg bg-white/10 dark:bg-gray/10 drop-shadow-box hover:rotate-x-6 hover:rotate-y-6 transition duration-150">
+  <a :href="link" class="w-full lg:w-1/2 flex flex-col gap-4 px-6 py-4 rounded-lg bg-white/10 dark:bg-gray/10 drop-shadow-box hover:rotate-x-6 hover:rotate-y-6 transition duration-150">
     <div>
       <p class="text-sm text-lightgray dark:text-gray transition duration-150">{{ date }}</p>
       <h4>{{ course }}</h4>

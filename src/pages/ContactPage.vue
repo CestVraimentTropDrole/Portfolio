@@ -4,14 +4,14 @@
 
 <template>
   <div class="h-[10dvh]"></div>
-  <section class="w-full text-center px-16 py-16 flex flex-col gap-4">
+  <section class="w-full text-center lg:px-16 lg:py-16 flex flex-col gap-4">
     <h2>Intéressé ?</h2>
     <p>Dans ma poursuite en 3e année d'études, je recherche des stages de toute durée (format alternance s'il y a cours) pour l'année courante. Si mon profil vous intéresse, je serai ravi de discuter avec vous de notre potentielle collaboration.</p>
   </section>
 
-  <section id="infos" class="w-full min-h-[50dvh] px-16 py-8 flex grow flex-col gap-8 justify-center items-center">
+  <section id="infos" class="w-full min-h-[50dvh] lg:px-16 lg:py-8 flex grow flex-col gap-8 justify-center items-center">
     <h3>Me contacter</h3>
-    <div class="w-full grid grid-cols-2 gap-6 px-8">
+    <div class="w-full flex flex-col lg:grid lg:grid-cols-2 gap-6 py-6 lg:py-0 lg:px-8">
       <div class="w-full flex flex-col items-center gap-6">
         <h4>Mes informations</h4>
         <InfosCard

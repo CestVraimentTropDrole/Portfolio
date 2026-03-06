@@ -34,7 +34,7 @@
 <template>
   <section id="projects" class="w-full">
 
-    <div v-if="projects" class="w-full grid grid-cols-3 px-16 gap-8">
+    <div v-if="projects" class="w-full flex flex-col lg:grid lg:grid-cols-3 py-6 lg:px-16 gap-8">
       <ProjectCard
         v-for="project in projects"
         :key="project.id"
