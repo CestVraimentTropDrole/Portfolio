@@ -26,6 +26,17 @@
         </svg>
       </div>
     </header>
+
+    <div
+      class="lg:hidden overflow-hidden transition-all duration-300 ease-in-out"
+      :style="{ maxHeight: menuOpen ? '200px' : '0px' }"
+    >
+      <nav class="flex flex-col px-6 py-4 gap-4 mt-1 rounded-lg bg-white/10 dark:bg-blue/10 backdrop-blur-sm">
+        <router-link to="/projects" @click="menuOpen = false">Projets</router-link>
+        <router-link to="/about" @click="menuOpen = false">À propos</router-link>
+        <router-link to="/contact" @click="menuOpen = false">Contact</router-link>
+      </nav>
+    </div>
   </div>
 </template>
 
@@ -33,7 +44,8 @@
   export default {
     data() {
       return {
-        lightMode: true
+        lightMode: true,
+        menuOpen: false
       }
     },
     methods: {
@@ -47,7 +59,7 @@
         }
       },
       togglePhoneMenu() {
-        // Action
+        this.menuOpen = !this.menuOpen
       }
     }
   }
