@@ -1,5 +1,5 @@
 <template>
-  <a :href="link" class="relative w-full lg:w-1/2 flex flex-col gap-4 px-6 py-4 rounded-lg bg-white/10 dark:bg-gray/10 drop-shadow-box hover:rotate-x-6 hover:rotate-y-6 transition duration-150">
+  <a v-if="link" :href="link" class="relative w-full lg:w-1/2 flex flex-col gap-4 px-6 py-4 rounded-lg bg-white/10 dark:bg-gray/10 drop-shadow-box hover:rotate-x-6 hover:rotate-y-6 transition duration-150">
     <p class="absolute w-min px-4 py-2 top-4 right-4 rounded-full bg-blue dark:bg-gray/10 transition duration-150">{{ type }}</p>
     <div>
       <p class="text-sm text-lightgray dark:text-gray transition duration-150">{{ date }}</p>
@@ -8,6 +8,16 @@
     </div>
     <p>{{ courseDesc }}</p>
   </a>
+
+  <div v-else="link" class="relative w-full lg:w-1/2 flex flex-col gap-4 px-6 py-4 rounded-lg bg-white/10 dark:bg-gray/10 drop-shadow-box hover:rotate-x-6 hover:rotate-y-6 transition duration-150">
+    <p class="absolute w-min px-4 py-2 top-4 right-4 rounded-full bg-blue dark:bg-gray/10 transition duration-150">{{ type }}</p>
+    <div>
+      <p class="text-sm text-lightgray dark:text-gray transition duration-150">{{ date }}</p>
+      <h4>{{ course }}</h4>
+      <h5 class="italic font-inter text-lg">{{ school }}</h5>
+    </div>
+    <p>{{ courseDesc }}</p>
+  </div>
 </template>
 
 <script>

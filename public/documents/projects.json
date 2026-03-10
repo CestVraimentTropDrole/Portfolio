@@ -71,27 +71,5 @@
       ]
     },
     "mainpage": true
-  },
-  {
-    "id": 4,
-    "name": "Placeholder",
-    "date": "Date",
-    "shortDesc": "Description courte.",
-    "longDesc": "Description longue.",
-    "technos": ["Placeholder"],
-    "tags": ["test"],
-    "images": [
-      "wallpaper.jpg"
-    ],
-    "link": "",
-    "competencies": {
-      "ce": [
-        "CE4.03 | en produisant du code fonctionnel, sobre et réutilisable"
-      ],
-      "ac": [
-        "AC34.03 | Développer des dispositifs interactifs sophistiqués"
-      ]
-    },
-    "mainpage": false
   }
 ]

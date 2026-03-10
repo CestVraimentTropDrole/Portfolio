@@ -10,6 +10,7 @@
   })
 
   const projects = ref(null)
+  let loading = true
 
   const categories = {
     jeuvideo: 'Jeu vidéo',

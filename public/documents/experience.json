@@ -10,11 +10,20 @@
   },
   {
     "id": 2,
-    "name": "Full Stack Developer",
+    "name": "Développeur Full Stack",
     "place": "LACVI",
     "description": "Site Web de réservation en ligne créé de zéro, avec inscription, validation, recherche et gestion admin, avec Tailwind et Symfony. Stage de 2 mois en solo.",
     "date": "Avril - Juin 2025",
-    "link": "",
+    "link": "/documents/lacvi_rapport-stage.pdf",
+    "type": "Stage"
+  },
+  {
+    "id": 3,
+    "name": "NDA",
+    "place": "Narcisse Films",
+    "description": "Stage d'observation de 2 semaines en communication graphique et vidéo, avec aide à la maintenance du site Web.",
+    "date": "9 au 20 Mars 2026",
+    "link": "https://narcissefilms.fr",
     "type": "Stage"
   }
 ]

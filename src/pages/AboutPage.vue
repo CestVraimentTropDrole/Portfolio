@@ -19,14 +19,21 @@
       <p>Passionné de développement, je poursuis le parcours DevWeb en tant qu'élève de 3e année en BUT MMI, à l'IUT de Chambéry. Polyvalent, je suis intéressé dans le graphisme, UX design et motion design.</p>
       <p>En dehors du travail, j'adore énormément dessiner, ce qui m'a permis de développer une approche créative dans mes projets. Et d'un naturel curieux, j'apprécie toujours apprendre et utiliser de nouvelles compétences.</p>
     </div>
-  </section>
 
-  <section>
-    
+    <div class="w-full mt-4 flex flex-col gap-6">
+      <h3>Mes passions</h3>
+
+      <div class="w-full grid grid-cols-4 gap-4">
+        <div>Dessin</div>
+        <div>Jeu vidéo</div>
+        <div>Lecture</div>
+        <div>Musique</div>
+      </div>
+    </div>
   </section>
 
   <section id="education" class="w-full min-h-[50dvh] lg:px-16 lg:py-8 flex grow flex-col gap-8 justify-center items-center">
-    <h3>Parcours</h3>
+    <h3>Mon parcours</h3>
     <div class="w-full flex flex-col-reverse gap-8 justify-center items-center">
       <EducationCard
         v-for="experience in experiences"
