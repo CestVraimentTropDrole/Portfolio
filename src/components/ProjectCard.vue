@@ -50,7 +50,7 @@
           </div>
         </div>
 
-        <a :href="project.link" class="w-fit px-6 py-3 rounded-lg shadow-box overflow-hidden duration-150 bg-orange hover:bg-[#BE5C17] text-white">
+        <a v-show="project.link" :href="project.link" class="w-fit px-6 py-3 rounded-lg shadow-box overflow-hidden duration-150 bg-orange hover:bg-[#BE5C17] text-white">
           Accéder
         </a>
       </div>

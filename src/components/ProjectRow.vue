@@ -19,6 +19,7 @@
     ux: 'UX',
     motion: 'Motion design',
     av: 'Vidéo',
+    graph: 'Graphisme',
     test: "Test"
   }
 

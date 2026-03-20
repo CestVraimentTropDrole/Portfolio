@@ -24,7 +24,7 @@
       <h3>Mes passions</h3>
 
       <div class="w-full grid grid-cols-4 gap-4">
-        <div>Dessin</div>
+        <div class="bg-white/10 dark:bg-gray/10  rounded-lg">Dessin</div>
         <div>Jeu vidéo</div>
         <div>Lecture</div>
         <div>Musique</div>

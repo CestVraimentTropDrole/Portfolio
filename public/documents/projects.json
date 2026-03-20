@@ -41,10 +41,16 @@
     "link": "https://github.com/Evann111/SAE401",
     "competencies": {
       "ce": [
-        "CE4.03 | en produisant du code fonctionnel, sobre et réutilisable"
+        "CE4.01 | en se conformant aux standards du Web et aux normes d'accessibilité",
+        "CE4.02 | en s'appuyant sur des concepts théoriques issus de l'informatique et des sciences de l'information",
+        "CE4.03 | en produisant du code fonctionnel, sobre et réutilisable",
+        "CE4.04 | en utilisant des outils favorisant un développement itératif et collaboratif",
+        "CE4.05 | en veillant à la sécurité des systèmes et des données"
       ],
       "ac": [
-        "AC34.03 | Développer des dispositifs interactifs sophistiqués"
+        "AC34.01 | Développer à l'aide d'un framework de développement côté serveur",
+        "AC34.02 | Développer à l'aide d'un framework de développement côté client",
+        "AC34.05 | Maîtriser  l'hébergement et le déploiement d'applications"
       ]
     },
     "mainpage": true
@@ -64,12 +70,37 @@
     "link": "https://www.youtube.com/watch?v=nl7JZgJo9QQ",
     "competencies": {
       "ce": [
-        "CE4.03 | en produisant du code fonctionnel, sobre et réutilisable"
+        ""
       ],
       "ac": [
-        "AC34.03 | Développer des dispositifs interactifs sophistiqués"
+        ""
       ]
     },
     "mainpage": true
+  },
+  {
+    "id": 4,
+    "name": "Ce portfolio",
+    "date": "Février 2026 - En cours",
+    "shortDesc": "Portfolio Web de présentation et de compétence créé en Vue.",
+    "longDesc": "Portfolio Web développé avec VueJS, axé Portfolio de présentation pour les entreprises, et Portfolio de compétences pour les professeurs.",
+    "technos": ["VueJS", "Tailwind"],
+    "tags": ["web"],
+    "images": [
+      "portfolio.png"
+    ],
+    "link": "",
+    "competencies": {
+      "ce": [
+        "CE4.01 | en se conformant aux standards du Web et aux normes d'accessibilité",
+        "CE4.03 | en produisant du code fonctionnel, sobre et réutilisable",
+        "CE4.04 | en utilisant des outils favorisant un développement itératif et collaboratif"
+      ],
+      "ac": [
+        "AC34.02 | Développer à l'aide d'un framework de développement côté client",
+        "AC34.05 | Maîtriser  l'hébergement et le déploiement d'applications"
+      ]
+    },
+    "mainpage": false
   }
 ]

@@ -3,7 +3,7 @@
     "id": 1,
     "name": "BUT Métiers du Multimédia et de l'Internet",
     "place": "IUT de Chambéry",
-    "description": "Axé sur la professionalisation et les projets, MMI est un parcours pluridisciplinaire qui forme au développement Web, graphisme, vidéo et gestion de projet.",
+    "description": "Axé sur la professionalisation et les projets, MMI est un parcours pluridisciplinaire en 3 ans qui forme au développement Web, graphisme, vidéo et gestion de projet.",
     "date": "2023 - 2026",
     "link": "https://mmi.univ-smb.fr/",
     "type": "Études"
@@ -19,10 +19,10 @@
   },
   {
     "id": 3,
-    "name": "NDA",
+    "name": "Stagiaire en communication numérique",
     "place": "Narcisse Films",
-    "description": "Stage d'observation de 2 semaines en communication graphique et vidéo, avec aide à la maintenance du site Web.",
-    "date": "9 au 20 Mars 2026",
+    "description": "Stage d'observation de 2 semaines en communication numérique, avec création de site Web pour la communication d'un client.",
+    "date": "9 - 20 Mars 2026",
     "link": "https://narcissefilms.fr",
     "type": "Stage"
   }
